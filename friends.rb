@@ -9,3 +9,14 @@ def print_big_nums(array)
 end
 
 print_big_nums(integers)
+
+
+def print_under_sixty(array)
+  array.each do |num|
+    if num < 60
+      puts num
+    end
+  end
+end
+
+print_under_sixty(integers)
